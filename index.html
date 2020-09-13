@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webink</title>
+    
+    <!-- link bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Link swiper -->
+    <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css">
+    <!-- link Animate -->
+    <link rel="stylesheet" href="./css/animate.min.css">
+    <!-- Link Style, Fonts and Normalize -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/style.css">
+    
+
+    
+
+
+
+</head>
+<body>
+
+    <!-- Header section -->
+    <header class="header">
+        <div class="header__bg"></div>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg wow animate__animated animate__fadeIn">
+                <a class="navbar-brand " href="#"><img src="./img/logo.svg" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"><img src="./img/hamburger-menu.svg" alt="hamburger"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">О продукте</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Примеры</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Сравнение</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Тарифы</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Контакты</a>
+                    </li>
+                    <li class="nav-item nav-btn btn-green">
+                        <a class="item__btn-link" href="#">Заказать</a>
+                    </li>
+                  </ul>
+                </div>
+            </nav>
+            <div class="row">
+                <div class="col-lg-7 header__text wow animate__animated animate__bounceInLeft">
+                    <div class="header__title"><h2>Акция бесплатный веб-сайт</h2></div>
+                    <div class="header__subtitle">Получите продукт в рассрочку</div>
+                    <div class="header__btn btn-green">
+                        <a class="header__btn-link" href="#" class="">Оставить заявку</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 header__img">
+                    <div class="header__img-science wow animate__animated animate__fadeInRight">
+                        <img src="./img/header-img.svg" alt="">  
+                        <div class="header__img-bounce bounce--blue wow animate__animated animate__bounce animate__delay-1s">
+                            <img  src="./img/header-img__blueBounce.svg" alt="">
+                        </div>
+                        <div class="header__img-bounce bounce--purp wow animate__animated animate__bounce animate__delay-1s" id="rod">
+                            <img src="./img/header-img__purpBounce.svg" alt="">
+                        </div> 
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About section -->
+    <section class="about">
+        <div class="container">
+            <div class="row about__row">
+                <div class="col-md-6 col-sm-12 about__img order-1 order-md-1 order-sm-2">
+                    <div class="img-box wow animate__animated animate__fadeInLeft animate__delay-1s">
+                        <img src="./img/about-target.svg" alt="">
+                    </div>
+                </div>
+                    
+                <div class="col-md-6 col-sm-12 about__text order-md-2 order-2 order-sm-1 wow animate__animated animate__fadeIn"> 
+                    <div class="about__title">
+                        <h3>О продукте</h3>
+                    </div>
+                    <div class="about__subtitle">Условие акций и скидок:</div>
+                    <div class="about__descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia nemo, ipsam molestiae reiciendis reprehenderit enim    deleniti, accusantium culpa hic ut. Temporibus animi ipsa officiis vero voluptatibus eos, veniam accusamus mollitia! <br>  <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia nemo, ipsam molestiae reiciendis reprehenderit enim delenit.</span>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </section>
+
+    <!-- Step section -->
+    <section class="step ">
+        <div class="container">
+            <div class="row step__text wow animate__animated animate__fadeIn animate__slow">
+                <div class="step__title"><h2>Этапы работы</h2></div>
+            </div>
+            <div class="row step__box wow animate__animated animate__slideInLeft">
+                <div class="col-md-3 step__box-content">
+                    <img src="/img/step-img.svg" alt="">
+                    <div class="step__box-descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </div>
+                </div>
+                <div class="col-md-3 step__box-content">
+                    <img src="/img/step-img.svg" alt="">
+                    <div class="step__box-descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </div>
+                </div>
+                <div class="col-md-3 step__box-content">
+                    <img src="/img/step-img.svg" alt="">
+                    <div class="step__box-descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </div>
+                </div>
+                <div class="col-md-3 step__box-content">
+                    <img src="/img/step-img.svg" alt="">
+                    <div class="step__box-descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </div>
+                </div>
+            </div>
+             <div class="step__btn btn-green"><a class="step__btn-link" href="https://webink.site/">Сайт студии webink.</a></div>   
+            
+        </div>
+    </section>
+
+    <!-- Price section -->
+    <section class="price">
+        <div class="price__bg">
+            <div class="container">
+                    <div class="row price__box wow animate__animated animate__bounceInLeft animate__slow">
+                        <div class="col-xl-4 col-md-4 col-sm-12 price__box-item first__box-item">
+                            <img class="item__img" src="img/step-img.svg" alt="">
+                            <div class="item__title">Webink start</div>
+                            <div class="item__descr">
+                                Одностраничный сайт <br> Яндекс.Директ - 5000 <img src="./img/ruble-black.svg" alt=""> <br> Базовая аналитика
+                            </div>
+                            <div class="item__price">19900 <img src="./img/ruble-black.svg" alt=""></div>
+                            <div class="box-item__btn">
+                                <a class="box-item__btn-link" href="#">Заказать</a>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-4  col-sm-12 price__box-item second__box-item">
+                            <img class="item__img" src="img/price-secondBox.svg" alt="">
+                            <div class="item__title">Webink Plus</div>
+                            <div class="item__descr">
+                                Сайт до 5 страниц <br> Яндекс.Директ <br> Расширеная аналитика <br> Техническая поддержка
+                            </div>
+                            <div class="item__price">20000 <img src="./img/ruble-white.svg" alt=""></div>
+                            <div class="box-item__btn"><a class="box-item__btn-link" href="#">Заказать</a></div>
+                        </div>
+                        <div class="col-xl-4 col-md-4 col-sm-12 price__box-item third__box-item">
+                            <img class="item__img" src="img/price-thirdBox.svg" alt="">
+                            <div class="item__title">Webink Pro</div>
+                            <div class="item__descr">
+                                Сайт до 10 страниц <br> Яндекс.Директ - 5000 <img src="./img/ruble-white.svg" alt=""> <br> Базовая аналитика <br> Круглосуточная поддержка <br>Разработка логотипа <br> Копирайт
+                            </div>
+                            <div class="item__price">20000 <img src="./img/ruble-white.svg" alt=""></div>
+                            <div class="box-item__btn"><a class="box-item__btn-link" href="#">Заказать</a></div>
+                        </div>
+                    </div>
+            </div>
+        </div> 
+    </section>
+
+    <!-- Portfolio section -->
+    <section class="portfolio">
+        <div class="container">
+            <div class="portfolio__title wow animate__animated animate__fadeInUp">
+                <h2>Портфолио</h2>
+            </div>
+            <div class="portfolio__slider wow animate__animated animate__fadeInUp">
+                <div class="slider__buttons">
+                    <div class="swiper-button-prev">
+                        <img src="./img/slider__prev-btn.svg" alt="">
+                    </div>
+                    <div class="swiper-button-next">
+                        <img src="./img/slider__next-btn.svg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./img/slider-img1.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/slider-img2.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/slider-img1.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/slider-img2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="footer">
+        <div class="footer__bg wow animate__animated animate__fadeIn animate__slowly" ></div>
+        <div class="container">
+            <div class="footer__text wow animate__animated animate__fadeIn">
+                <div class="footer__title"><h2>Готовы к старту?</h2></div>
+                <div class="footer__subtitle">Задайте вопрос нашим менеджерам или оформите заказ онлайн</div>
+                <div class="footer__buttons">
+                    <div class="footer__btn-order">
+                        <a class="order__link" href="#">Заказать продукт</a>
+                    </div>
+                    <div class="footer__btn-ques">
+                        <button type="button" class=" ques__link" data-toggle="modal" data-target="#exampleModal">
+                            <img src="./img/message-img.svg" alt="message">Задать вопрос
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            
+              
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="modal-title">Задать вопрос</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span class="close-modal" aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" required>
+                                <span class="highlight"></span>
+                                <span class="bar"></span>
+                                <label>Имя</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" required>
+                                <span class="highlight"></span>
+                                <span class="bar"></span>
+                                <label>Телефон</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" required>
+                                <span class="highlight"></span>
+                                <span class="bar"></span>
+                                <label>Ваш вопрос</label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="modal__btn" data-dismiss="modal" aria-label="Close">Отправить</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="footer__block">
+            <div class="container">
+                <div class="row footer__row ">
+                    <div class="col-md-3 col-xs-12">
+                        <a class="footer__logo" href="#"><img src="./img/logo.svg" alt="logo"></a>
+                    </div>
+                    <div class="col-md-3 col-xs-12 footer__info">
+                        <span>ООО “Вэбинк”"</span>
+                        <span>ИНН: 123123123123</span> 
+                        <span>ОГРН: 123123123123</span>
+                    </div>
+                    <div class="col-md-3 col-xs-12 footer__call">
+                        <span class="footer__call-mail">info@webink.ru</span>
+                        <span class="footer__call-number">+7(800)222-66-20</span>
+                    </div>
+                    <div class="col-md-3 col-xs-12  footer__social">
+                        <a href="#" class="footer__social-link"> <img src="/img/footer-social__vk.svg" alt=""></a>
+                        <a href="#" class="footer__social-link"> <img src="/img/footer-social__vk.svg" alt=""></a>
+                        <a href="#" class="footer__social-link"> <img src="/img/footer-social__vk.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <!-- link bootstrap.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!-- link Jquery.js -->
+    <script src="js/jquery.min.js"></script>
+    <!-- link swiper.js -->
+    <script src="node_modules/swiper/swiper-bundle.min.js"></script>
+    <!-- link wow.js -->
+    <script src="js/wow.min.js"></script>
+    <!-- link scripr.js -->
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
